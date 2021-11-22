@@ -17,13 +17,13 @@ int main(){
 	string currency_name;
 	cout << "Kamu bisa konfersi mata uang rupiah ke dolar atau yen" << endl;
 	cout << "=====================================================" << endl;
-	cout << "0. [bio data]" << endl;
+	cout << "99. [bio data]" << endl;
 	cout << "1. Rupiah ke Dolar" << endl;
 	cout << "2. Rupiah ke Yen" << endl;
 	cout << "=====================================================" << endl;
-	cout << "Masukkan opesi: ";
+	cout << "Masukkan opsi: ";
 	cin >> currency;
-	if (currency = 0)
+	if (currency == 99)
 	{
 		bio();
 	}
@@ -43,6 +43,6 @@ int main(){
 			result = float_amount * 0.0080;
 			break;
 		}
-		cout << amount << " rupiah adalah " << result << " " << currency << endl;
+		cout << amount << " rupiah adalah " << result << " " << currency_name << endl;
 }
 	}
