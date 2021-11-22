@@ -3,11 +3,11 @@
 using namespace std;
 
 void bio(){
-	cout << " =====================================================" << endl;
-	cout << "| nama : Dimas Maulana                                |" << endl;
-	cout << "| no   : 04                                           |" << endl;
-	cout << "| kls  : XII TKJ 2                                    |" << endl;
-	cout << " =====================================================" << endl << endl;
+	cout << " ======================================================" << endl;
+	cout << "| nama : Dimas Maulana                                 |" << endl;
+	cout << "| no   : 04                                            |" << endl;
+	cout << "| kls  : XII TKJ 2                                     |" << endl;
+	cout << " ======================================================" << endl;
 }
 
 int main(){
