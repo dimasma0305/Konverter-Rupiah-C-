@@ -7,7 +7,7 @@ void bio(){
 	cout << "| nama : Dimas Maulana                                |" << endl;
 	cout << "| no   : 04                                           |" << endl;
 	cout << "| kls  : XII TKJ 2                                    |" << endl;
-	cout << " =====================================================" << endl;
+	cout << " =====================================================" << endl << endl;
 }
 
 int main(){
