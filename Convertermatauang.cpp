@@ -3,11 +3,11 @@
 using namespace std;
 
 void bio(){
-	cout << "=====================================================" << endl;
-	cout << "nama : Dimas Maulana" << endl;
-	cout << "no   : 04" << endl;
-	cout << "kls  : XII TKJ 2" << endl;
-	cout << "=====================================================" << endl;
+	cout << " =====================================================" << endl;
+	cout << "| nama : Dimas Maulana                                |" << endl;
+	cout << "| no   : 04                                           |" << endl;
+	cout << "| kls  : XII TKJ 2                                    |" << endl;
+	cout << " =====================================================" << endl;
 }
 
 int main(){
@@ -17,13 +17,13 @@ int main(){
 	string currency_name;
 	while (1==true)
 	{
-		cout << "Kamu bisa konfersi mata uang rupiah ke dolar atau yen" << endl;
-		cout << "=====================================================" << endl;
-		cout << "99. [bio data]" << endl;
-		cout << "1. Rupiah ke Dolar" << endl;
-		cout << "2. Rupiah ke Yen" << endl;
-		cout << "=====================================================" << endl;
-		cout << "Masukkan opsi: ";
+		cout << "|Kamu bisa konfersi mata uang rupiah ke dolar atau yen |" << endl;
+		cout << " ======================================================" << endl;
+		cout << "| 99. [bio data]                                       |" << endl;
+		cout << "|  1. Rupiah ke Dolar                                  |" << endl;
+		cout << "|  2. Rupiah ke Yen                                    |" << endl;
+		cout << " ======================================================" << endl;
+		cout << "| Masukkan opsi: ";
 		cin >> currency;
 		if (currency == 99)
 		{
@@ -31,7 +31,7 @@ int main(){
 		}
 		else
 		{
-			cout << "Masukkan jumlah rupiah: ";
+			cout << "| Masukkan jumlah rupiah: ";
 			cin >> amount;
 			float float_amount = (float)amount;
 			switch (currency)
@@ -45,8 +45,10 @@ int main(){
 				result = float_amount * 0.0080;
 				break;
 			}
-			cin.get();
-			cout << amount << " rupiah adalah " << result << " " << currency_name << endl;
+			cout << " ======================================================" << endl;
+			cout << "| " << amount << " rupiah adalah " << result << " " << currency_name << endl;
+			cout << " ======================================================" << endl;
+			cout << endl << endl;
 		}
 	}
 }
