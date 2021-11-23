@@ -3,20 +3,13 @@
 using namespace std;
 
 void bio(){
-	cout << " ======================================================" << endl;
-	cout << "| nama : Dimas Maulana                                 |" << endl;
-	cout << "| no   : 04                                            |" << endl;
-	cout << "| kls  : XII TKJ 2                                     |" << endl;
-	cout << " ======================================================" << endl;
+	cout << " =====================================================" << endl;
+	cout << "| nama : Dimas Maulana                                |" << endl;
+	cout << "| no   : 04                                           |" << endl;
+	cout << "| kls  : XII TKJ 2                                    |" << endl;
+	cout << " =====================================================" << endl;
 }
-
-int main(){
-	int amount;
-	float result;
-	int currency;
-	string currency_name;
-	while (1==true)
-	{
+void list(){
 		cout << "|Kamu bisa konfersi mata uang rupiah ke dolar atau yen |" << endl;
 		cout << " ======================================================" << endl;
 		cout << "| 99. [bio data]                                       |" << endl;
@@ -24,6 +17,16 @@ int main(){
 		cout << "|  2. Rupiah ke Yen                                    |" << endl;
 		cout << " ======================================================" << endl;
 		cout << "| Masukkan opsi: ";
+
+}
+int main(){
+	int amount;
+	float result;
+	int currency;
+	string currency_name;
+	while (1==true)
+	{
+		list();
 		cin >> currency;
 		if (currency == 99)
 		{
@@ -44,6 +47,7 @@ int main(){
 				currency_name = "yen";
 				result = float_amount * 0.0080;
 				break;
+
 			}
 			cout << " ======================================================" << endl;
 			cout << "| " << amount << " rupiah adalah " << result << " " << currency_name << endl;
